@@ -282,7 +282,7 @@
         <td>1</td>
         <td>|1|</td>
         <td>=[N/A]</td>
-        <td></td>
+        <td>- MC: Branch [REF: 1 || FIRST]</td>
     </tr>
 </table>
 
@@ -455,6 +455,70 @@
         <td></td>
     </tr>
 </table>
+
+---
+
+---
+
+<h3 align="center">BRANCH 2</h3>
+
+<h4 align="center">VERSION 2.0</h4>
+
+-   Started TESD1400>M2>prjs-fnt-end-2>Submission on 20240610 17:26;
+-   Initialized branch (2) (REF: 2 || SECOND)
+-   Pushed SECOND to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2|</td>
+        <td>=[N/A]</td>
+        <td>- MC: Branch [REF: 2 || SECOND]</td>
+    </tr>
+</table>
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.1|=>|2.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2|=>|2.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|2|=>|2.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+---
 
 ---
 
