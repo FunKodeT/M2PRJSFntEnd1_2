@@ -1,70 +1,222 @@
-# Getting Started with Create React App
+<h1 align="center">VERSION HISTORY</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">LEGEND</h2>
 
-## Available Scripts
+<table align="center">
+    <tr>
+        <th>SYMBOL</th>
+        <th>MEANING</th>
+    </tr>
+    <tr>
+        <td>()</td>
+        <td>NOTATION</td>
+    </tr>
+    <tr>
+        <td>[]</td>
+        <td>DIRECTORY LOCALE</td>
+    </tr>
+    <tr>
+        <td>=></td>
+        <td>EQUAL TO THIS</td>
+    </tr>
+    <tr>
+        <td>||</td>
+        <td>FILE VERSION</td>
+    </tr>
+    <tr>
+        <td>&+</td>
+        <td>AND + CONTENTS</td>
+    </tr>
+    <tr>
+        <td>- MC: <...></td>
+        <td>DEV COMMENT</td>
+    </tr>
+</table>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<h3 align="center">BRANCH 0</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h4 align="center">VERSION 0.0</h4>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+-   Initialized project directory: prjs-fnt-end-1 (REF: MAINDIR\)
+-   Initialized ReactJS and NPM;
+-   Initialized local .git repository (REF: LOCAL)
+-   Initialized branch (0) (REF: 0 || OPERATIONS)
+-   Initialized remote .git repository (REF: REMOTE)
+-   Connected LOCAL and REMOTE (REF: ORIGIN)
+-   Pushed LOCAL to ORIGIN
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>prjs-fnt-end-1\</td>
+        <td>|N/A|</td>
+        <td>=[M2\prjs-fnt-end-1\]</td>
+        <td>- MC: [REF: MAINDIR\]</td>
+    </tr>
+    <tr>
+        <td>ReactJS NPX Package</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\+]</td>
+        <td>- +[create-react-app]</td>
+    </tr>
+    <tr>
+        <td>NodeJS NPM Package</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\node_modules\]</td>
+        <td>- +[react-route-dom]<br>- +[sass]<br>- +[scss]<br>- +[react-bootstrap]<br>- +[bootswatch]<br>- +[bootstrap]<br>- +[jquery]</td>
+    </tr>
+    <tr>
+        <td>components\</td>
+        <td>|N/A|</td>
+        <td>=[src\components]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Loader\</td>
+        <td>|N/A|</td>
+        <td>=[components\Loader]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Navbar\</td>
+        <td>|N/A|</td>
+        <td>=[components\Navbar]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Loader.jsx</td>
+        <td>|0|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>loader.scss</td>
+        <td>|0|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Navbar.jsx</td>
+        <td>|0|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Create.jsx</td>
+        <td>|0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Edit.jsx</td>
+        <td>|0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RecordList.jsx</td>
+        <td>|0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>|0|</td>
+        <td>=[N/A]</td>
+        <td>- MC: Branch [REF: 0 || OPERATIONS]</td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|0|</td>
+        <td>=@[https://www.github.com/FunKodeT/M2PRJSFntEnd1_2.git]</td>
+        <td>- MC: Remote</td>
+    </tr>
+</table>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
 
-### `npm run eject`
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0|=>|0.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>|0|=>|0.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|0|=>|0.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h4 align="center">VERSION 0.0.1</h4>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   Updated README.md
+-   Pushed LOCAL to ORIGIN
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.0|=>|0.0.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td>- MC: Did not save changes made for v0.0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>|0.0|=>|0.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|0.0|=>|0.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
