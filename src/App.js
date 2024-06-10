@@ -11,6 +11,8 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route exact path="/" element={<RecordList />} />
+				<Route exact path="/contacts/create" element={<Create />} />
+				<Route exact path="/edit/:id" element={<Edit />} />
 			</Routes>
 		</div>
 	);

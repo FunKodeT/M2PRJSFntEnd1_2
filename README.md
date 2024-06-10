@@ -518,7 +518,60 @@
 
 ---
 
+<h4 align="center">VERSION 2.0.1</h4>
+
+-   Continued TESD1400>M2>prjs-fnt-end-2>Submission on 20240610 17:32;
+-   Commited changes TTech EOD TESD1400>M2>prjs-fnt-end-2>Submission on 20240610 17:48;
+-   Pushed SECOND to ORIGIN
+
 ---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Loader.jsx</td>
+        <td>|1.1|=>|2.0.1|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RecordList.jsx</td>
+        <td>|1.1|=>|2.0.1|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>App.js</td>
+        <td>|1.1|=>|2.0.1|</td>
+        <td>=[MAINDIR\src\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
 
 ---
 
