@@ -219,4 +219,84 @@
 
 ---
 
+<h3 align="center">BRANCH 1</h3>
+
+<h4 align="center">VERSION 1.0</h4>
+
+---
+
+-   Initialized Branch (1) (REF: 1 || FIRST)
+-   Completed TESD1400>M2>prjs-fnt-end-1>'Creating the Application'
+-   Pushed FIRST to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Navbar.jsx</td>
+        <td>|0|=>|1.0|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>App.js</td>
+        <td>|0|=>|1.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.js</td>
+        <td>|0|=>|1.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.0.1|=>|1.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1|=>|1.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|1|=>|1.0|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
 ---
