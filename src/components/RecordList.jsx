@@ -53,13 +53,15 @@ export default function RecordList() {
 		await fetch(`https://m4pnjsapi.onrender.com/students`, {
 			method: 'DELETE',
 		});
-		const newRecords = records.filerter((el) => el._id !== id);
+		const newRecords = records.filter((el) => el._id !== id);
 		setRecords(newRecords);
 	}
 
 	// THIS METHOD WILL MAP OUT THE RECORDS ON THE TABLE
 	function recordList() {
 		return records.map((record) => {
+			loading ? <loader /> : recordList();
+
 			return (
 				<Record
 					record={record}

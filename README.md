@@ -302,7 +302,7 @@
 <h4 align="center">VERSION 1.0.1</h4>
 
 -   Started TESD1400>M2>prjs-fnt-end-1>Calling_the_API as of 20240610 13:37;
--   Commited TESD1400>M2>prjs-fnt-end-1>Calling_the_API as of 20240610 16:49;
+-   Finished TESD1400>M2>prjs-fnt-end-1>Calling_the_API as of 20240610 16:49;
 -   Pushed FIRST to ORIGIN
 
 ---
@@ -355,6 +355,66 @@
     <tr>
         <td>ORIGIN</td>
         <td>|1.0|=>|1.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 1.1</h4>
+
+---
+
+-   Started TESD1400>M2>prjs-fnt-end-1>Build_out_the_Application on 20240610 16:52;
+-   Finished TESD1400>M2>prjs-fnt-end-1>Build_out_the_Application on 20240610 17:09;
+-   Prepped FIRST for merge into OPERATIONS
+-   Pushed FIRST to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Loader.jsx</td>
+        <td>|0|=>|1.1|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>loader.scss</td>
+        <td>|0|=>|1.1|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RecordList.jsx</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|1.0.1|=>|1.1|</td>
         <td>=[N/A]</td>
         <td></td>
     </tr>
