@@ -1,0 +1,26 @@
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	font-size: larger;
+}
+
+a.footerTxt {
+	text-decoration: none;
+	color: #ffffff8c;
+}
+
+.footer {
+	border-top: 2px solid #008f4cab;
+	background-color: #282c34;
+	color: #008f4cab;
+}
+
+a:hover {
+	color: white;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+		border-color 0.15s ease-in-out;
+}

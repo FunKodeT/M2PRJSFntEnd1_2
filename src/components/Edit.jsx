@@ -72,7 +72,9 @@ export default function Edit() {
 			<h3>Update Record</h3>
 			<form onSubmit={onSubmit}>
 				<div className="form-group">
-					<label htmlFor="firstName">First Name: </label>
+					<label className="firstName" htmlFor="firstName">
+						First Name:{' '}
+					</label>
 					<input
 						type="text"
 						className="form-control"
@@ -84,7 +86,9 @@ export default function Edit() {
 					/>
 				</div>
 				<div className="form-group">
-					<label htmlFor="lastName">Last Name: </label>
+					<label className="lastName" htmlFor="lastName">
+						Last Name:{' '}
+					</label>
 					<input
 						type="text"
 						className="form-control"
@@ -94,7 +98,9 @@ export default function Edit() {
 					/>
 				</div>
 				<div className="form-group">
-					<label htmlFor="email">Email: </label>
+					<label className="email" htmlFor="email">
+						Email:{' '}
+					</label>
 					<input
 						type="text"
 						className="form-control"
@@ -104,7 +110,9 @@ export default function Edit() {
 					/>
 				</div>
 				<div className="form-group">
-					<label htmlFor="age">Age: </label>
+					<label className="age" htmlFor="age">
+						Age:{' '}
+					</label>
 					<input
 						type="text"
 						className="form-control"
@@ -114,7 +122,9 @@ export default function Edit() {
 					/>
 				</div>
 				<div className="form-group">
-					<label htmlFor="currentCollege">Current College: </label>
+					<label className="currentCollege" htmlFor="currentCollege">
+						Current College:{' '}
+					</label>
 					<input
 						type="text"
 						className="form-control"

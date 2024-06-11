@@ -545,7 +545,7 @@
         <td>RecordList.jsx</td>
         <td>|1.1|=>|2.0.1|</td>
         <td>=[src\components\]</td>
-        <td></td>
+        <td>- MC: Edit && Create functionality accomplished</td>
     </tr>
     <tr>
         <td>App.js</td>
@@ -568,6 +568,119 @@
     <tr>
         <td>ORIGIN</td>
         <td>|2.0|=>|2.0.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 2.1</h4>
+
+-   Continued TESD1400>M2>prjs-fnt-end-2>Submission on 20240611 13:35;
+-   Completed TESD1400>M2>prjs-fnt-end-2>Submission on 20240611 16:44;
+-   Prepped SECOND for merge into OPERATIONS
+-   Pushed SECOND to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Footer\+</td>
+        <td>|N/A|</td>
+        <td>=[components\Footer\+]</td>
+        <td>- +[Footer.jsx|2|]<br>- +[footer.scss|2|]</td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Footer.jsx</td>
+        <td>|2|=>|2.1|</td>
+        <td>=[components\Footer\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>footer.scss</td>
+        <td>|2|=>|2.1|</td>
+        <td>=[components\Footer\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Loader.jsx</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>loader.scss</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[components\Loader\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Navbar.jsx</td>
+        <td>|1.0|=>|2.1|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Edit.jsx</td>
+        <td>|1.0.1|=>|2.1|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RecordList.jsx</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[src\components\]</td>
+        <td>- MC: DELETE functionality accomplished</td>
+    </tr>
+    <tr>
+        <td>App.css</td>
+        <td>|0|=>|2.1|</td>
+        <td>=[MAINDIR\src\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>App.js</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[MAINDIR\src\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[N/A]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ORIGIN</td>
+        <td>|2.0.1|=>|2.1|</td>
         <td>=[N/A]</td>
         <td></td>
     </tr>

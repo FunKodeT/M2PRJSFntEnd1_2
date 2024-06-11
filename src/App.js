@@ -4,6 +4,8 @@ import {Route, Routes} from 'react-router-dom';
 import RecordList from './components/RecordList';
 import Create from './components/Create';
 import Edit from './components/Edit';
+import Style from './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -14,6 +16,7 @@ function App() {
 				<Route exact path="/contacts/create" element={<Create />} />
 				<Route exact path="/edit/:id" element={<Edit />} />
 			</Routes>
+			<Footer />
 		</div>
 	);
 }

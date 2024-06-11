@@ -46,22 +46,25 @@ export default function RecordList() {
 			setRecords(records);
 		}
 		getRecords();
+		setLoading(false);
 	}, [records.length]);
 
 	// THIS METHOD WILL DELETE A RECORD
 	async function deleteRecord(id) {
-		await fetch(`https://m4pnjsapi.onrender.com/students`, {
+		// async function deleteRecord() {
+		console.log('Delete request submitted');
+		await fetch(`https://m4pnjsapi.onrender.com/students/${id}`, {
 			method: 'DELETE',
 		});
+		console.log('Delete request received');
 		const newRecords = records.filter((el) => el._id !== id);
 		setRecords(newRecords);
+		console.log('Delete request completed');
 	}
 
 	// THIS METHOD WILL MAP OUT THE RECORDS ON THE TABLE
 	function recordList() {
 		return records.map((record) => {
-			loading ? <loader /> : recordList();
-
 			return (
 				<Record
 					record={record}
@@ -75,20 +78,23 @@ export default function RecordList() {
 	// THIS FOLLOWING SECTION WILL DISPLAY THE TABLE WITH THE RECORDS OF INDIVIDUALS
 	return (
 		<div className="container">
-			<h3 className="contact-title">Contact List</h3>
-			<table className="table table-striped" style={{marginTop: 20}}>
-				<thead>
-					<tr>
-						<th>First Name</th>
-						<th>Last Name</th>
-						<th>Email</th>
-						<th>Age</th>
-						<th>Current College</th>
-						<th>Modify Student</th>
-					</tr>
-				</thead>
-				<tbody>{recordList()}</tbody>
-			</table>
+			<div className="table">
+				<h3 className="contact-title">Contact List</h3>
+				{/* <table className="tablePersonal"> */}
+				<table className="table table-striped">
+					<thead id="tableHead" className="tableHead">
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Email</th>
+							<th>Age</th>
+							<th>Current College</th>
+							<th>Modify Student</th>
+						</tr>
+					</thead>
+					<tbody>{loading ? <Loader /> : recordList()}</tbody>
+				</table>
+			</div>
 		</div>
 	);
 }
